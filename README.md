@@ -203,9 +203,15 @@ All data is sourced from public Reddit posts via the Pushshift archive. No priva
 
 ---
 
-## Citation
+## Author
 
-```
-[Your Name]. (2025). The Human-AI Connection: Sentiment and Ethics of AI Companions.
-Unpublished research report. [University / Institution].
-```
+Anita Xu
+
+University of Washington
+B.S. Informatics (Data Science)
+
+GitHub:
+https://github.com/anitaxu0715
+
+Project repository:
+https://github.com/anitaxu0715/The-Human-AI-Connection
