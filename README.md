@@ -13,7 +13,7 @@ This project analyzes Reddit data to explore three questions:
 - What words characterize *negative* discourse in AI companion spaces compared to ethics discourse?
 - What does the distribution of sentiment scores reveal about emotional investment and the divide between lived experience and public debate?
 
-Full findings are in Human_AI_Connection_Case_Study.pdf.
+Full findings are available in [Human_AI_Connection_Case_Study.pdf](Human_AI_Connection_Case_Study.pdf).
 ---
 
 ## Key Results
@@ -98,8 +98,8 @@ Console summary + 100-row samples
         │  • Visualizations: bar chart + per-subreddit histogram grid
         ▼
 sentiment_summary_results.csv
-outputs/figures/sentiment_by_subreddit.png
-outputs/figures/sentiment_distribution.png
+sentiment_by_subreddit.png
+sentiment_distribution.png
 ```
 
 ---
@@ -111,22 +111,20 @@ human-ai-connection/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── config.py                        ← all paths, subreddit lists, constants
+├── config.py
 │
-├── extract_reddit_research.py       ← Step 1: extract from .zst archives
-├── analyze_reddit_dataset.py        ← Step 2: dataset summary statistics
-├── sentiment_analysis.py            ← Step 3: VADER + TF-IDF + figures
+├── extract_reddit_research.py
+├── analyze_reddit_dataset.py
+├── sentiment_analysis.py
 │
-├── outputs/
-│   ├── figures/
-│   │   ├── sentiment_by_subreddit.png
-│   │   └── sentiment_distribution.png
-│   └── samples/
-│       ├── sample_submissions.csv   ← 100 rows, safe to inspect
-│       └── sample_comments.csv
+├── sentiment_by_subreddit.png
+├── sentiment_distribution.png
 │
-└── report/
-    └── Human_AI_Connection_Case_Study.pdf
+├── Human_AI_Connection_Case_Study.pdf
+│
+└── samples/
+    ├── sample_submissions.csv
+    └── sample_comments.csv
 ```
 
 ---
@@ -204,8 +202,6 @@ All data is sourced from public Reddit posts via the Pushshift archive. No priva
 ---
 
 ## Author
-
-Author
 
 Anita Xu
 B.S. Informatics (Data Science), University of Washington
