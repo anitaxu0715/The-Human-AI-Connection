@@ -1,0 +1,6 @@
+matplotlib
+nltk
+pandas
+scikit-learn>=1.0
+tqdm
+zstandard

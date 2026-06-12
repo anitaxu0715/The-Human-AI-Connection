@@ -1,0 +1,32 @@
+# ── Large data files (never commit) ──────────────────────────────────────────
+*.zst
+*.zst.tmp
+reddit_submissions_filtered.csv
+reddit_comments_filtered.csv
+sentiment_summary_results.csv
+
+# ── Safe to commit (small samples & outputs) ─────────────────────────────────
+# sample_submissions.csv  ← intentionally NOT ignored
+# sample_comments.csv     ← intentionally NOT ignored
+# outputs/figures/*.png   ← intentionally NOT ignored
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
