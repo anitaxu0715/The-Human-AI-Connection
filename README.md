@@ -13,8 +13,7 @@ This project analyzes Reddit data to explore three questions:
 - What words characterize *negative* discourse in AI companion spaces compared to ethics discourse?
 - What does the distribution of sentiment scores reveal about emotional investment and the divide between lived experience and public debate?
 
-**Full findings are in** [`report/Human_AI_Connection_Case_Study.pdf`](report/Human_AI_Connection_Case_Study.pdf).
-
+Full findings are in Human_AI_Connection_Case_Study.pdf.
 ---
 
 ## Key Results
@@ -38,7 +37,7 @@ This project analyzes Reddit data to explore three questions:
 | r/KindroidAI | +0.3532 | — | — |
 | r/LocalLLM | +0.2848 | — | — |
 | r/ArtificialIntelligence | +0.2770 | — | — |
-| r/CharacterAI | +0.0924 | — | 32.4% neutral |
+| r/CharacterAI | +0.0924 | 39.7% | 27.9% |
 | r/Ethics | −0.0093 | 43.5% | 42.5% |
 
 **Core finding:** Companion-focused communities score ~0.36 on average; r/Ethics is the only community with a negative average at −0.01. The gap reflects a measurable divide between users *living with* AI companions and communities *debating* them from the outside.
@@ -47,8 +46,9 @@ This project analyzes Reddit data to explore three questions:
 - **r/CharacterAI:** Top negative terms are platform-specific grievances — the platform name itself, "moderators", "bot", "chat" — indicating frustration directed at the *platform*, not the AI.
 - **r/Ethics:** Top negative terms are abstract moral vocabulary — "wrong", "unethical", "death", "life", "right" — the language of ethical debate about hypotheticals and principles.
 
-![Sentiment by Subreddit](outputs/figures/sentiment_by_subreddit.png)
-![Sentiment Distribution](outputs/figures/sentiment_distribution.png)
+![Sentiment by Subreddit](sentiment_by_subreddit.png)
+
+![Sentiment Distribution](sentiment_distribution.png)
 
 ---
 
@@ -205,13 +205,10 @@ All data is sourced from public Reddit posts via the Pushshift archive. No priva
 
 ## Author
 
-Anita Xu
+Author
 
-University of Washington
-B.S. Informatics (Data Science)
+Anita Xu
+B.S. Informatics (Data Science), University of Washington
 
 GitHub:
 https://github.com/anitaxu0715
-
-Project repository:
-https://github.com/anitaxu0715/The-Human-AI-Connection
